@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8242e8f4ef04ced8eeac5e05fd3b0e, type: 3}
+  m_Name: MineralOrange_GatherStats 3
+  m_EditorClassIdentifier: 
+  id: 
+  name: "\u6A59\u77FF\u77F3"
+  gatherType: 1
+  gatherItemPrefab: {fileID: 1478000126141804620, guid: f02b16e3a922dd34f81439e29126fec9,
+    type: 3}
+  refreshProbability: 0
+  item: {fileID: 11400000, guid: 01d9c8cbeed7f40bda7e4f031172a1e3, type: 2}
+  equipmentType: 1

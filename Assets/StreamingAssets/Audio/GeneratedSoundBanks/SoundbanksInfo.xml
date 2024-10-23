@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../../../Desktop/TapTap_Wwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../../Desktop/TapTap_Wwise/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../../Desktop/TapTap_Wwise/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{F168FD2F-E9ED-B95E-9115-49B3CE290BA4}">
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<Media>
+				<File Id="155799927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley Footstep Golf Cleats Running On Wood Platform 02.wav</ShortName>
+					<CachePath>SFX/Foley Footstep Golf Cleats Running On Wood Platform 02_9C30219C.wem</CachePath>
+				</File>
+				<File Id="312953689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Songs 1 thru 5 wavs\Song 3 idea soft piano synth 10.20.24.wav</ShortName>
+					<CachePath>SFX/Songs 1 thru 5 wavs/Song 3 idea soft piano synth 10.20.24_409B7530.wem</CachePath>
+				</File>
+				<File Id="482256243" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>drive-download-20241021T005051Z-001\UI_Click_3.wav</ShortName>
+					<CachePath>SFX/drive-download-20241021T005051Z-001/UI_Click_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="847492971" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>drive-download-20241021T005051Z-001\UI_Click_1.wav</ShortName>
+					<CachePath>SFX/drive-download-20241021T005051Z-001/UI_Click_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="903146824" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Songs 1 thru 5 wavs\song 1 soft elec piano 10.20.24.wav</ShortName>
+					<CachePath>SFX/Songs 1 thru 5 wavs/song 1 soft elec piano 10.20.24_9E86D890.wem</CachePath>
+				</File>
+				<File Id="1004643794" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>drive-download-20241021T005051Z-001\UI_Click_Select.wav</ShortName>
+					<CachePath>SFX/drive-download-20241021T005051Z-001/UI_Click_Select_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1058243790" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Songs 1 thru 5 wavs\video game acoustic loop 10.20.24.wav</ShortName>
+					<CachePath>SFX/Songs 1 thru 5 wavs/video game acoustic loop 10.20.24_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3433173770" Name="Play_Ladder" DurationType="OneShot" DurationMin="1.1346748" DurationMax="1.1346748">
+					<MediaRefs>
+						<MediaRef Id="155799927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2601284360" Name="Play_Song_guitarloop" DurationType="OneShot" DurationMin="52.60374" DurationMax="52.60374">
+					<MediaRefs>
+						<MediaRef Id="1058243790"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2119995893" Name="Play_Song_menu" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="312953689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2457704367" Name="Play_Song_theme" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="903146824"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="17487897" Name="Play_UI_Click_1" DurationType="OneShot" DurationMin="0.70104164" DurationMax="0.70104164">
+					<MediaRefs>
+						<MediaRef Id="847492971"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="17487899" Name="Play_UI_Click_3" DurationType="OneShot" DurationMin="0.0671875" DurationMax="0.0671875">
+					<MediaRefs>
+						<MediaRef Id="482256243"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3261148064" Name="Play_UI_Click_Select" DurationType="OneShot" DurationMin="0.6666667" DurationMax="0.6666667">
+					<MediaRefs>
+						<MediaRef Id="1004643794"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3701239241" Name="Stop_Song_theme" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7FE14B1D-2A4B-50A2-02F0-DB9E481E0345}</FileHash>
+</SoundBanksInfo>

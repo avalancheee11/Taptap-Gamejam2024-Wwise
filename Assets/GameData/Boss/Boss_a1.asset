@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f861a1e88d7649e8a90b46368015a44, type: 3}
+  m_Name: Boss_a1
+  m_EditorClassIdentifier: 
+  bossPrefab: {fileID: 9106017910978126314, guid: 2c33d9e64f34142e4bef65d1da1d11be,
+    type: 3}
+  bossName: a1
+  health: 200
+  maxHealth: 200
+  attack: 30
+  type: Monster
+  timeBtwAttacks: 1
+  attackRange: 26.3
+  dropItemId: 
+  energyBall: 100
+  bulletSpeed: 10
+  bulletPrefab: {fileID: 1375132487283870614, guid: 551ee5c1dd14e4516ac7efadc94c99d8,
+    type: 3}
+  firePoint: {fileID: 0}
+  maxDistance: 10

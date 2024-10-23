@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8242e8f4ef04ced8eeac5e05fd3b0e, type: 3}
+  m_Name: FishRed_GatherStats 4
+  m_EditorClassIdentifier: 
+  id: 
+  name: "\u7EA2\u9C7C"
+  gatherType: 2
+  gatherItemPrefab: {fileID: 943879276679897821, guid: 1e3d1560ae46e7b4ea40028de60b8382,
+    type: 3}
+  refreshProbability: 0
+  item: {fileID: 11400000, guid: cf23dbaee71494f1cbd890ef74326629, type: 2}
+  equipmentType: 1
