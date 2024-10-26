@@ -15,7 +15,7 @@
 		<SubFoldersForGeneratedFiles>false</SubFoldersForGeneratedFiles>
 		<RemoveUnusedGeneratedFiles>true</RemoveUnusedGeneratedFiles>
 		<SourceControlGeneratedFiles>false</SourceControlGeneratedFiles>
-		<GenerateHeaderFile>false</GenerateHeaderFile>
+		<GenerateHeaderFile>true</GenerateHeaderFile>
 		<GenerateContentTxtFile>true</GenerateContentTxtFile>
 		<GenerateMetadataXML>true</GenerateMetadataXML>
 		<GenerateMetadataJSON>false</GenerateMetadataJSON>
@@ -23,10 +23,10 @@
 		<GeneratePerBankMetadata>false</GeneratePerBankMetadata>
 		<UseSoundBankNames>true</UseSoundBankNames>
 		<AllowExceedingMaxSize>false</AllowExceedingMaxSize>
-		<MaxAttenuationInfo>false</MaxAttenuationInfo>
+		<MaxAttenuationInfo>true</MaxAttenuationInfo>
 		<EstimatedDurationInfo>true</EstimatedDurationInfo>
 		<PrintObjectGuid>false</PrintObjectGuid>
 		<PrintObjectPath>false</PrintObjectPath>
 	</Settings>
-	<FileHash>{FC01C567-4521-2908-F07D-7E1D35B881BB}</FileHash>
+	<FileHash>{78A937E9-4E20-790F-440F-6EF4C4FDF4E3}</FileHash>
 </PlatformInfo>
