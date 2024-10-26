@@ -9,25 +9,33 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{F168FD2F-E9ED-B95E-9115-49B3CE290BA4}">
+		<SoundBank Id="133642231" Type="User" Language="SFX" Hash="{55413209-DD24-C42D-24AA-8DC4451FD0FE}">
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<Media>
 				<File Id="155799927" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Foley Footstep Golf Cleats Running On Wood Platform 02.wav</ShortName>
-					<CachePath>SFX/Foley Footstep Golf Cleats Running On Wood Platform 02_9C30219C.wem</CachePath>
+					<CachePath>SFX/Foley Footstep Golf Cleats Running On Wood Platform 02_8B04277A.wem</CachePath>
 				</File>
 				<File Id="312953689" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Songs 1 thru 5 wavs\Song 3 idea soft piano synth 10.20.24.wav</ShortName>
-					<CachePath>SFX/Songs 1 thru 5 wavs/Song 3 idea soft piano synth 10.20.24_409B7530.wem</CachePath>
+					<CachePath>SFX/Songs 1 thru 5 wavs/Song 3 idea soft piano synth 10.20.24_6471DEE3.wem</CachePath>
 				</File>
 				<File Id="482256243" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>drive-download-20241021T005051Z-001\UI_Click_3.wav</ShortName>
 					<CachePath>SFX/drive-download-20241021T005051Z-001/UI_Click_3_818F3B66.wem</CachePath>
 				</File>
+				<File Id="816086410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Foley Footstep Golf Cleats Shuffle On Dirt 02.wav</ShortName>
+					<CachePath>SFX/Foley Footstep Golf Cleats Shuffle On Dirt 02_B1B3179F.wem</CachePath>
+				</File>
 				<File Id="847492971" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>drive-download-20241021T005051Z-001\UI_Click_1.wav</ShortName>
 					<CachePath>SFX/drive-download-20241021T005051Z-001/UI_Click_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="872935512" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cartoon Voice Well Ho Ho Ho Santa 01.wav</ShortName>
+					<CachePath>SFX/Cartoon Voice Well Ho Ho Ho Santa 01_818F3B66.wem</CachePath>
 				</File>
 				<File Id="903146824" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Songs 1 thru 5 wavs\song 1 soft elec piano 10.20.24.wav</ShortName>
@@ -43,6 +51,16 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="948914500" Name="Play_Footsteps_Grass" DurationType="OneShot" DurationMin="0.4070162" DurationMax="0.4070162">
+					<MediaRefs>
+						<MediaRef Id="816086410"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1875399631" Name="Play_Ho_Ho_Ho_Santa_01" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.7786667" DurationMax="2.7786667">
+					<MediaRefs>
+						<MediaRef Id="872935512"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3433173770" Name="Play_Ladder" DurationType="OneShot" DurationMin="1.1346748" DurationMax="1.1346748">
 					<MediaRefs>
 						<MediaRef Id="155799927"/>
@@ -78,7 +96,9 @@
 						<MediaRef Id="1004643794"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3701239241" Name="Stop_Song_theme" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2711617310" Name="Stop_Song_guitarloop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2912140159" Name="Stop_Song_menu" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3701239241" Name="Stop_Song_theme" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
@@ -95,5 +115,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7FE14B1D-2A4B-50A2-02F0-DB9E481E0345}</FileHash>
+	<FileHash>{27E3FD9F-C36A-EE51-15E4-5B62339B8465}</FileHash>
 </SoundBanksInfo>

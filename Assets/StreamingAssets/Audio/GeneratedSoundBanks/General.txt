@@ -1,18 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
 	17487897	Play_UI_Click_1			\Default Work Unit\Play_UI_Click_1	
 	17487899	Play_UI_Click_3			\Default Work Unit\Play_UI_Click_3	
+	948914500	Play_Footsteps_Grass			\Default Work Unit\Play_Footsteps_Grass	
+	1875399631	Play_Ho_Ho_Ho_Santa_01			\Default Work Unit\Play_Ho_Ho_Ho_Santa_01	
 	2119995893	Play_Song_menu			\Default Work Unit\Play_Song_menu	
 	2457704367	Play_Song_theme			\Default Work Unit\Play_Song_theme	
 	2601284360	Play_Song_guitarloop			\Default Work Unit\Play_Song_guitarloop	
+	2711617310	Stop_Song_guitarloop			\Default Work Unit\Stop_Song_guitarloop	
+	2912140159	Stop_Song_menu			\Default Work Unit\Stop_Song_menu	
 	3261148064	Play_UI_Click_Select			\Default Work Unit\Play_UI_Click_Select	
 	3433173770	Play_Ladder			\Default Work Unit\Play_Ladder	
 	3701239241	Stop_Song_theme			\Default Work Unit\Stop_Song_theme	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	155799927	Ladder	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Foley Footstep Golf Cleats Running On Wood Platform 02_9C30219C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Store\Ladder		277768
-	312953689	Song_menu	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Songs 1 thru 5 wavs\Song 3 idea soft piano synth 10.20.24_409B7530.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Song_menu		12852316
+	155799927	Ladder	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Foley Footstep Golf Cleats Running On Wood Platform 02_8B04277A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Store\Ladder		277768
+	312953689	Song_menu	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Songs 1 thru 5 wavs\Song 3 idea soft piano synth 10.20.24_6471DEE3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Song_menu		12834676
 	482256243	UI_Click_3	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\drive-download-20241021T005051Z-001\UI_Click_3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click_3		13108
+	816086410	Footsteps_Grass	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Foley Footstep Golf Cleats Shuffle On Dirt 02_B1B3179F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Grass		78244
 	847492971	UI_Click_1	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\drive-download-20241021T005051Z-001\UI_Click_1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click_1		134696
+	872935512	Ho Ho Ho Santa 01	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Cartoon Voice Well Ho Ho Ho Santa 01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Boss\Ho Ho Ho Santa 01		533600
 	903146824	Song_theme	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Songs 1 thru 5 wavs\song 1 soft elec piano 10.20.24_9E86D890.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Song_theme		7876736
 	1004643794	UI_Click_Select	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\drive-download-20241021T005051Z-001\UI_Click_Select_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click_Select		128160
 	1058243790	Song_guitarloop	Y:\Desktop\TapTap_Wwise\.cache\Web\SFX\Songs 1 thru 5 wavs\video game acoustic loop 10.20.24_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Song_guitarloop		9279396
